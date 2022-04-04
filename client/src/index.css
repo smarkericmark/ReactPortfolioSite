@@ -153,20 +153,56 @@ a:active {
   font-size: 16px;
   line-height: 24px;
   color: #F5F5F5;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .main--p {
   font-style: normal;
-  /* font-size: 12px; UNCOMMENT WHEN ADDING PORJECT SECTION
+  font-size: 12px; /*UNCOMMENT WHEN ADDING PROJECT SECTION*/
   margin-top: 0px;
-  line-height: 15px;*/
+  line-height: 15px;
   font-size: 14px; 
   line-height: 130%; /* Remove when adding project section*/
   margin-top: 25px;  /* Remove when adding project section*/
   color: #DCDCDC;
 }
-     
+
+.main--listBox {
+  width: 100%;
+  display: flex;
+  line-height: 190%;
+}
+
+.main--list1 {
+  flex: 1;
+  width: 40%;
+  margin-left: 0px;
+}
+
+.main--list2 {
+  margin-left: 10px;
+  width: 40%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+/* Link Decorations */
+a.main--ProjectButton {
+  color: seashell;
+}
+
+ a:hover.main--ProjectButton {
+  color: #0077b5;
+  font-weight: bold;
+}
+
+a:active.main--ProjectButton {
+  font-weight: 500;
+}
 
 /*Footer Section*/
 
